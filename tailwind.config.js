@@ -3,10 +3,7 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-  content: [
-    "./public/**/*.{html,js}",
-    "./node_modules/tw-elements/dist/js/**/*.js",
-  ],
+  content: ["./public/**/*.{html,js}"],
   theme: {
     extend: {
       fontFamily: {
@@ -23,5 +20,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tw-elements/dist/plugin")],
+  plugins: [],
 };
